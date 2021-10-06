@@ -32,7 +32,7 @@ namespace demoapp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World! Welcome to Github");
+                    await context.Response.WriteAsync("Hello World! Welcome to Github from feature branch");
                 });
             });
         }
